@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1350px) {
+  .main {
+    .content {
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+  .images-cont {
+    .left {
+      img {
+        width: 60;
+      }
+    }
+    .right {
+      img {
+        width: 80;
+      }
+    }
+  }
+
+  .features {
+    .wrapper {
+      gap: 40px;
+      :nth-child(2) {
+        flex-wrap: wrap-reverse;
+      }
+      .box {
+        justify-content: center;
+        align-items: center;
+
+        img {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .images-cont {
+    .center {
+      img {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1350px) {
+  .main .content p {
+    font-size: 2rem;
+  }
+  .images-cont .left img {
+    width: 60;
+  }
+  .images-cont .right img {
+    width: 80;
+  }
+  .features .wrapper {
+    gap: 40px;
+  }
+  .features .wrapper :nth-child(2) {
+    flex-wrap: wrap-reverse;
+  }
+  .features .wrapper .box {
+    justify-content: center;
+    align-items: center;
+  }
+  .features .wrapper .box img {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .images-cont .center img {
+    display: none;
+  }
+}/*# sourceMappingURL=mediaQueri.css.map */
